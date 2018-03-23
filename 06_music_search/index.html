@@ -47,9 +47,10 @@
         <div class="col-md-8 col-md-offset-2">
 
           <!-- CODE IN HERE -->
-        <form method="GET" action="https://itunes.apple.com/search?">  
+        <form method="GET" action="https://itunes.apple.com/search">  
           <!--need other paramkeys like term and country-->
-          <input type="text" name="q" country="US" placeholder="artist">
+          <input type="text" name="term" placeholder="artist">
+          <input type = "text" name="country" value="US">
           <input type="submit" name="submit">
         </form>
 
@@ -59,3 +60,4 @@
   </body>
 </html>
 <!-- do we create this form and then link to the API like our AJAX lessons? -->
+
